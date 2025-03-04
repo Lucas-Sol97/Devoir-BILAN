@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mon premier CV crée avec HTML et CSS">
     <link rel="stylesheet" href="./contents/style.css">
-    <link rel="stylesheet" href="./contents/header-style.css">
+    <link rel="stylesheet" href="./contents/header-footer-style.css">
     <link rel="stylesheet" href="./contents/skills-summary.css">
-    <link rel="icon" type="image/png" href="./icons/favicon(1).png">
+    <link rel="stylesheet" href="./contents/experiences-summary.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="icon" type="image/png" href="./icons/favicon(1).png">
     <title>Mon CV</title>
 </head>
 
 <body>
     <div class="container">
         <header class="box1">
+            <a href="https://media.vogue.fr/photos/6149a854caa66aad73ee8e50/2:3/w_1920,c_limit/GettyImages-587621789.jpg" target="_blank">
             <img src="https://media.vogue.fr/photos/6149a854caa66aad73ee8e50/2:3/w_1920,c_limit/GettyImages-587621789.jpg" alt="Un Renard" class="image-profil">
+            </a>
             <div class="text-title-address">
                 <h1>Lucas S.</h1>
                 <h2>Développeur Web et Web Mobile</h2>
@@ -35,10 +39,10 @@
         <div class="box2">
             <div class="profil-container">
                 <h2>Compétences</h2>
-                    <div class="language-summary">
-                            <div class="languages-skills">
-                                <span class="language-name">HTML</span>
-                                <div class="language-levels">
+                    <div class="summary">
+                            <div class="skills">
+                                <span class="name">HTML</span>
+                                <div class="levels">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -47,9 +51,9 @@
                                 </div>
                             </div>
 
-                            <div class="languages-skills">
-                                <span class="language-name">CSS</span>
-                                <div class="language-levels">
+                            <div class="skills">
+                                <span class="name">CSS</span>
+                                <div class="levels">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -58,9 +62,9 @@
                                 </div>
                             </div>
 
-                            <div class="languages-skills">
-                                <span class="language-name">Javascript</span>
-                                <div class="language-levels">
+                            <div class="skills">
+                                <span class="name">Javascript</span>
+                                <div class="levels">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="far fa-star"></i>
@@ -69,9 +73,9 @@
                                 </div>
                             </div>
 
-                            <div class="languages-skills">
-                                <span class="language-name">PHP</span>
-                                <div class="language-levels">
+                            <div class="skills">
+                                <span class="name">PHP</span>
+                                <div class="levels">
                                     <i class="fas fa-star"></i>
                                     <i class="far fa-star"></i>
                                     <i class="far fa-star"></i>
@@ -84,18 +88,18 @@
             
             <div class="profil-container">
                 <h2>Langues</h2>
-                    <div class="language-summary">
-                            <div class="languages-skills">
-                                <span class="language-name">Français</span>
-                                <span class="language-levels-degrees">Langue maternelle</span>
+                    <div class="summary">
+                            <div class="skills">
+                                <span class="name">Français</span>
+                                <span class="levels-degrees">Langue maternelle</span>
                             </div>
-                            <div class="languages-skills">
-                                <span class="language-name">Anglais</span>
-                                <span class="language-levels-degrees">Professionnel</span>
+                            <div class="skills">
+                                <span class="name">Anglais</span>
+                                <span class="levels-degrees">Professionnel</span>
                             </div>
-                            <div class="languages-skills">
-                                <span class="language-name">Italien</span>
-                                <span class="language-levels-degrees">Notions</span>
+                            <div class="skills">
+                                <span class="name">Italien</span>
+                                <span class="levels-degrees">Notions</span>
                             </div>
                     </div>
             </div>
@@ -120,12 +124,106 @@
                     </ul>
             </div>
         </div>
+
     <div class="box3">
+        <div class="profil-container">
+            <h2>Profil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed
+                voluptatum quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque
+                unde deleniti dicta perferendis magnis debitis dolorem atque vitae voluptas. Cum magnis
+                doloribus eius tenetur!
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed
+                voluptatum quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque
+                unde deleniti dicta perferendis magnis debitis dolorem atque vitae voluptas. Cum magnis
+                doloribus eius tenetur!
+            </p>
+        </div>
+
+        <div class="profil-container">
+            <h2>Formations</h2>
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Programmation Web</span>
+                    <span class="profil-dates">2023/2024</span>
+                </div>
+                <span class="locations">CNFDI, Centre National Privé de Formation à Distance</span>
+            </div>
+
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Baccalauréat</span>
+                    <span class="profil-dates">2015</span>
+                </div>
+                <span class="locations">Lycée de Tours</span>
+            </div>
+        </div>
+
+        <div class="profil-container">
+            <h2>Stages</h2>
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Assistant Administratif</span>
+                    <span class="profil-dates">Juillet 2023 - Aout 2023</span>
+                </div>
+                <span class="locations">Agence d'interim</span>
+            </div>
+
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Technicien support Informatique</span>
+                    <span class="profil-dates">Fevrier 2023 - Mars 2023</span>
+                </div>
+                <span class="locations">Info-Support & Co</span>
+            </div>
+        </div>
+
+        <div class="profil-container">
+            <h2>Expérience professionnelle</h2>
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Assistant Administratif</span>
+                    <span class="profil-dates">Septembre 2023 - Janvier 2024</span>
+                </div>
+                <span class="locations">Agence d'interim</span>
+            </div>
+
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Technicien support Informatique</span>
+                    <span class="profil-dates">Avril 2023 - Juin 2023</span>
+                </div>
+                <span class="locations">Info-Support & Co</span>
+            </div>
+
+            <div class="profil-summary">
+                <div class="profil-skills">
+                    <span class="profil-name">Serveur en restauration</span>
+                    <span class="profil-dates">Octobre 2022 - Janvier 2023</span>
+                </div>
+                <span class="locations"> Le Irish pub</span>
+            </div>
+        </div>
 
     </div>
-        <div class="box4">
-
+    
+    <footer class="box4">
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://www.instagram.com/modorick01/">
+                    <i class="fi fi-brands-instagram"></i>
+                </a>
+                <a href="https://github.com/Lucas-Sol97">
+                    <i class="fi fi-brands-github"></i>
+                </a>
+                <a href="https://x.com/Midraz00">
+                    <i class="fi fi-brands-twitter-alt"></i>
+                </a>
+            </div>
+            <span class="time-update">Mis à jour le : 04/03/2025</span>
         </div>
+    </footer>
+
     </div>
 </body>
 </html>

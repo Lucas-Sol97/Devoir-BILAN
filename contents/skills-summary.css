@@ -15,22 +15,22 @@ i{
     color: rgb(23, 171, 179);
 }
 
-.languages-skills{
+.skills{
     display: flex;
     justify-content: space-between;
     padding: 5px;
 }
 
-.language-name{
+.name{
     font-weight: bold;
     color: black;
 }
 
-.language-levels{
+.levels{
     display: flex;
 }
 
-.language-levels-degrees{
+.levels-degrees{
     color: black;
 }
 

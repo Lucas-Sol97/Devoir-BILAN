@@ -1,0 +1,42 @@
+.box3 h2{
+    color: rgb(23, 171, 179);
+    font-family: 'Lato', sans-serif;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.profil-summary{
+    padding: 10px 0;
+}
+
+.profil-summary:hover{
+    background-color: rgb(226, 226, 226);
+    border-left: 5px solid rgb(23, 171, 179);
+}
+
+p{
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.profil-dates{
+    color: rgb(23, 171, 179);
+}
+
+.profil-skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.profil-name{
+    font-weight: bold;
+    color: black;
+}
+
+.locations{
+    padding-left: 5px;
+    font-size: 90%;
+    font-style: italic;
+}

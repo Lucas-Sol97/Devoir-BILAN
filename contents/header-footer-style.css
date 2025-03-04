@@ -38,4 +38,31 @@ address a{
 
 img{
     width: 15px;
+    cursor: zoom-in;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links i{
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    padding: 0 10px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.social-links i:hover{
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.time-update{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
 }
