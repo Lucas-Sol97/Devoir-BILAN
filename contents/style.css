@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.container{
+    display: flex;
+    max-width: 1160px;
+    height: 100vh;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.box1{
+    display: flex;
+    background-color: rgb(23, 171, 179);
+    padding: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box2{
+    background-color: rgb(227, 227, 227);
+    color: #rgb(227, 227, 227);
+    padding: 50px;
+    align-self: center;
+    height: 80%;
+    width: 30%;
+}
+
+.box3{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    align-self: center;
+    height: 80%;
+    width: 70%;
+}
+
+.box4{
+    background-color: rgb(23, 171, 179);
+    color: white;
+    padding: 50px;
+    align-self: flex-end;
+    flex-direction: row;
+    width: 100%;
+}

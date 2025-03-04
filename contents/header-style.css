@@ -1,0 +1,41 @@
+.text-title-address{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-right: 10em;
+}
+
+.text-title-address h1{
+    font-size: 50px;
+}
+
+address{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 10px;
+    margin-top: 10px;
+}
+
+address a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.image-profil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: 3em;
+}
+
+img{
+    width: 15px;
+}
