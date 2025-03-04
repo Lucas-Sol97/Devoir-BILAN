@@ -1,0 +1,45 @@
+.box2 h2{
+    color: rgb(23, 171, 179);
+    font-family: 'Lato', sans-serif;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.profil-container{
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+i{
+    color: rgb(23, 171, 179);
+}
+
+.languages-skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.language-name{
+    font-weight: bold;
+    color: black;
+}
+
+.language-levels{
+    display: flex;
+}
+
+.language-levels-degrees{
+    color: black;
+}
+
+ul{
+    list-style-type: square;
+    color: black;
+    padding-left: 1em;
+}
+
+li::marker{
+    color: rgb(23, 171, 179);
+}
